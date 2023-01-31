@@ -1,0 +1,9 @@
+1)I have used selenium and beautifulsoup for data scraping
+2)website CarTrade will load new page after clicking on next button which is present at bottom of website.
+3)To perform this task I have used selenium.find_element(by = By.XPATH, value= '').click()
+4)It was working fine for 1st and 2nd page then from 3rd  page it was giving me an error
+5)so I change the XPATH and then it worked fine for all pages.
+6)That is why I have used two while loops, one is for 1&2 page and 2nd while loop is for pages from 3 onwords
+7)Then for each iteration of while loop I extracted information using beautifulsoup
+8)Information of each item is stored in 'li', class_="blk_grid_new"
+9)so I used for loop over it and extract all the required information of each item from each 'li'
